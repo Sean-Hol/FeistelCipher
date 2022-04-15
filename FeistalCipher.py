@@ -4,9 +4,8 @@ import math
 import hashlib
 
 
-# Name: Sean Holschier z5308039
-# Assignment: Programming for Security Assignment 1
-# Description: Feistel Cipher encoder and decoder as per required for Assignment 1. 
+# Name: Sean Hol
+# Description: Feistel Cipher encoder and decoder 
 #   A filepath for the text and string for the key must be specified, along with whether the user wishes an encoded or decoded output and the output filepath
 #   This Feistel algorithm runs with F(R,K) function being the xor of the right side of the input and key for that round.
 #   The keys are derived by creating sha256 functions of the prior key, with the first key being a sha256 hash of the inputted key. This way all keys are different.
